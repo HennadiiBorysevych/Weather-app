@@ -23,6 +23,7 @@ body {
   border-radius: 18px;
   font-family: "Roboto", sans-serif;
   transition: 0.6 ease-in-out;
+  margin: 0 15px;
 }
 .search-box {
   width: 100%;
