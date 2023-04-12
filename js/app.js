@@ -50,19 +50,19 @@ function handleDataFetch(data) {
 
   switch (data.weather[0].main) {
     case "Clear":
-      image.src = "images/day_clear.svg";
+      image.src = "./images/day_clear.svg";
       break;
     case "Rain":
-      image.src = "images/day_rain.svg";
+      image.src = "./images/day_rain.svg";
       break;
     case "Snow":
-      image.src = "images/day_snow.svg";
+      image.src = "./images/day_snow.svg";
       break;
     case "Clouds":
-      image.src = "images/cloudy.svg";
+      image.src = "./images/cloudy.svg";
       break;
     case "Haze":
-      image.src = "images/mist.svg";
+      image.src = "./images/mist.svg";
       break;
 
     default:
